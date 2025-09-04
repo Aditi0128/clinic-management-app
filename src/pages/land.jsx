@@ -10,7 +10,7 @@ export default function Landing() {
     <div className="min-h-screen bg-gradient-to-b from-white to-gray-100 relative">
       {/* Animated Clinic Icon */}
       <img
-        src="C:\Users\VICTUS\Desktop\DirectionApp\Direction\clinic.gif" // replace with your downloaded icon path
+        src="/clinic.gif" 
         alt="Clinic Icon"
         className="absolute left-16 w-16 h-16 opacity-100"
       />
@@ -19,9 +19,9 @@ export default function Landing() {
       <nav className="flex justify-between items-center px-8 py-4 shadow-md bg-white relative z-10">
         <div className="flex items-center gap-2">
           <img
-            src="\medical-cross.gif" // your icon path
+            src="/medical-cross.gif"
             alt="Clinic Icon"
-            className="w-10 h-10" // adjust size
+            className="w-10 h-10" 
           />
           <h1 className="text-2xl font-bold text-gray-800">Direction</h1>
         </div>
@@ -46,7 +46,7 @@ export default function Landing() {
       <section className="flex flex-col items-center justify-center text-center px-6 py-20 relative z-10">
         <div className="flex items-center gap-4">
           <img
-            src="/clinic.gif" // replace with your icon path
+            src="/clinic.gif" 
             alt="Clinic Icon"
             className="w-20 h-20"
           />
